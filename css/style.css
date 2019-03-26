@@ -1,0 +1,99 @@
+﻿body {
+	background-image:url(../images/387.jpg);
+	}
+#shapka {
+	width:1255px;
+	height:315px;
+	margin:0px auto;
+	background-image:url(../images/v.jpg);
+	border:3px none #000000;
+}
+.meny {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+	text-decoration:none;
+	color: #006;
+}
+#akcia {
+	color: #C09;
+	font-weight: bold;
+	font-size: 18px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-style: italic;
+	text-decoration: none;
+}
+#akcia1 {
+	color: #063;
+	font-weight: bold;
+	font-size: 18px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-style: italic;
+	text-decoration: none;
+}
+#akcia2 {
+	color: #C09;
+}
+
+#img_polis {
+	float: left;
+	margin-right: 20px;
+}
+#calc {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+}
+#zagol_1 {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#sele1 {
+	font-family: "Comic Sans MS", cursive;
+	background-color: #C8DEEB;
+	font-weight: normal;
+}
+#but1 {
+	height: 30px;
+	width: 200px;
+	background-color: #C8DEEB;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-weight: normal;
+	border: 2px solid #455F90;
+	color: #455F90;
+	cursor: pointer;
+}
+#rez1 {
+	font-weight: bold;
+}

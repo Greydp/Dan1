@@ -1,0 +1,35 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table width="100%" border="0">
+	              <tr>
+	                <td width="15%" align="center"><a href="../index.html"><img src="../images/proba5.png" width="15" height="15" alt="Главная"></a></td>
+	                <td width="85%"><p><a href="../index.html" class="meny">Главная</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="../content/akcia.html"><img src="../images/proba5.png" width="15" height="15" alt="Акции и специальные предложения"></a></td>
+	                <td><a href="../content/akcia.html" class="meny" id="akcia2">Акции и специальные предложения</a></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="../content/calc.html"><img src="../images/proba5.png" width="15" height="15" alt="Калькулятор ОСАГО"></a></td>
+	                <td><p><a href="../content/calc.html" class="meny">Рассчитать стоимость полиса ОСАГО</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="../content/oplata.html"><img src="../images/proba5.png" width="15" height="15" alt="Оплата и доставка"></a></td>
+	                <td><p><a href="../content/oplata.html" class="meny">Оплата и доставка</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="../content/faq1.html"><img src="../images/proba5.png" width="15" height="15" alt="Вопросы и ответы по осаго"></a></td>
+	                <td><p><a href="../content/faq1.html" class="meny">Вопросы и ответы</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="../content/kasko.html"><img src="../images/proba5.png" width="15" height="15" alt="Каско, Зеленая карта"></a></td>
+	                <td><p><a href="../content/kasko.html" class="meny">Другие виды страхования</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="../content/otzv.html"><img src="../images/proba5.png" width="15" height="15" alt="О нас"></a></td>
+	                <td><p><a href="../content/info_me.html" class="meny">О нас</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="../content/kontakt.html"><img src="../images/proba5.png" width="15" height="15" alt="Контакты"></a></td>
+	                <td><p><a href="../content/kontakt.html" class="meny">Контакты</a></p></td>
+	                </tr>
+                </table>

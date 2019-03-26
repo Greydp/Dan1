@@ -1,0 +1,159 @@
+﻿<!DOCTYPE HTML PUBLIC>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Калькулятор осаго. Расчет стоимости автостраховки в Украине</title>
+  <meta name="description" content="Калькулятор для расчета тарифа полиса ОСАГО. Узнать стоимость автостраховки на территории Украины.">
+  <meta name="keywords" content="калькулятор осаго, стоимость автостраховки в Украине">
+  <link href="../css/style.css" type="text/css" rel="stylesheet">
+  <script src="../js/osgo_calc.js" type="text/javascript"> </script>
+ </head>
+ <body>
+ 	<div id="shapka"> <!-- Вся шапка -->
+	</div>
+	<table width="100%" border="0" align="center">
+	  <tr>
+	    <td height="486" valign="top"><table width="100%" border="0">
+	      <tr>
+	        <td width="16%" height="483" valign="top"><table width="100%" border="0">
+	          <tr>
+	            <td height="267" valign="top"><!-- #BeginLibraryItem "/Library/navigat.lbi" -->
+<table width="100%" border="0">
+	              <tr>
+	                <td width="15%" align="center"><a href="../index.html"><img src="../images/proba5.png" width="15" height="15" alt="Главная"></a></td>
+	                <td width="85%"><p><a href="../index.html" class="meny">Главная</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="akcia.html"><img src="../images/proba5.png" width="15" height="15" alt="Акции и специальные предложения"></a></td>
+	                <td><a href="akcia.html" class="meny" id="akcia2">Акции и специальные предложения</a></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="calc.html"><img src="../images/proba5.png" width="15" height="15" alt="Калькулятор ОСАГО"></a></td>
+	                <td><p><a href="calc.html" class="meny">Рассчитать стоимость полиса ОСАГО</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="oplata.html"><img src="../images/proba5.png" width="15" height="15" alt="Оплата и доставка"></a></td>
+	                <td><p><a href="oplata.html" class="meny">Оплата и доставка</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="faq1.html"><img src="../images/proba5.png" width="15" height="15" alt="Вопросы и ответы по осаго"></a></td>
+	                <td><p><a href="faq1.html" class="meny">Вопросы и ответы</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="kasko.html"><img src="../images/proba5.png" width="15" height="15" alt="Каско, Зеленая карта"></a></td>
+	                <td><p><a href="kasko.html" class="meny">Другие виды страхования</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="otzv.html"><img src="../images/proba5.png" width="15" height="15" alt="О нас"></a></td>
+	                <td><p><a href="info_me.html" class="meny">О нас</a></p></td>
+	                </tr>
+	              <tr>
+	                <td align="center"><a href="kontakt.html"><img src="../images/proba5.png" width="15" height="15" alt="Контакты"></a></td>
+	                <td><p><a href="kontakt.html" class="meny">Контакты</a></p></td>
+	                </tr>
+                </table><!-- #EndLibraryItem --></td>
+              </tr>
+	          <tr>
+	            <td>&nbsp;</td>
+              </tr>
+            </table></td>
+	        <td width="73%" valign="top">
+            <h1>Калькулятор расчета тарифа ОСАГО</h1>
+            <p>Уважаемый посетитель нашего сайта ! <br>
+                  Для удобства расчета стоимости автостраховки в Украине предлагаем Вам воспользоваться интерактивным калькулятором ОСАГО. </p>
+            <p> Шаг 1. Выберите в таблице параметры,  соответствующие Вашему автомобилю.<br>
+            </p>
+            <form name="calc_osgo">
+            <table width="80%" border="1" id="calc">
+              <tr>
+                <td width="50%">Тип транспортного средства</td>
+                <td width="50%">
+                   <select name="k1" id="sele1">
+                    	<option selected="selected" value="1.0">Легковые автомобили до 1600 куб.см</option>
+	                    <option value="1.14">Легковые автомобили от 1601 до 2000 куб.см</option>
+    	                <option value="1.18">Легковые автомобили от 2001 до 3000 куб.см</option>
+        	            <option value="1.82">Легковые автомобили от 3001 куб.см и более</option>
+            	        <option value="0.34">Прицепы к легковым автомобилям</option>
+                	    <option value="2.55">Автобусы до 20 чел. включительно</option>
+                    	<option value="3.0">Автобусы свыше 20 чел.</option>
+	                    <option value="2.0">Грузовые автомобили до 2т включительно</option>
+    	                <option value="2.18">Грузовые автомобили свыше 2т</option>
+        	            <option value="0.5">Прицепи к грузовым автомобилям</option>
+            	        <option value="0.68">Мотоциклы и мотороллеры</option>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Место регистрации автомобиля</td>
+                <td>
+                   <select name="k2" id="sele1">
+	                   <option value="4.8">г.Киев</option>
+                       <option value="2.5">Города, рядом с Киевом (Борисполь, Боярка и т.д.)</option>
+    	               <option selected="selected" value="3.4">Днепропетровск, Харьков, Одесса</option>
+        	           <option value="2.8">Донецк, Запорожье, Львов, Николаев, Кривой Рог</option>
+            	       <option value="2.2">Населенные пункты с численностью от 100 тыс. до 500 тыс.</option>
+                	   <option value="1.5">Населенные пункты с численностью меньше 100 тыс.</option>
+                   </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Физическое или юридическое лицо</td>
+                <td>
+                   <select name="k4" id="sele1">
+	                   <option value="1.2">Юридическое</option>
+    	               <option selected="selected" value="1.5">Физическое</option>
+                   </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Безаварийный стаж вождения</td>
+                <td>
+                   <select name="bm" id="sele1">
+	                   <option value="1">0 лет</option>
+    	               <option selected="selected" value="0.95">1 год</option>
+        	           <option value="0.9">2 года</option>
+            	       <option value="0.85">3 года</option>
+                	   <option value="0.8">4 года</option>
+	                   <option value="0.8">5 лет</option>
+    	               <option value="0.8">6 и более лет</option>
+                   </select>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                   <button type="button" id="but1" onclick="st_osgo(calc_osgo);">
+                      Рассчитать
+                   </button>
+                </td>
+                <td><input type="text" name="res" size="10" id="rez1"> грн.</td>
+              </tr>
+              </table>
+              </form>
+                       
+            
+            <p>Шаг 2. Знакомитесь с нашими <a href="akcia.html">акционными предложениями</a>. </p>
+            <p>Шаг 3. Связываетесь с нашим менеджером для уточнения <a href="oplata.html">условий оформления и доставки</a> Вашего полиса.</p>
+            <br></td>
+	        <td width="11%" valign="top">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+	  <tr>
+	    <td height="23" align="center"> Copyright © osgo.net.ua 2019  Все права защищены</td>
+      </tr>
+ </table>
+ <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39596714-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ </body>
+</html>
